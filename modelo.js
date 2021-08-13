@@ -120,10 +120,10 @@ function checkGameOver() {
 
 const player = new Component(30, 30, 'red', 0, 110);
 
-function updateGameArea() {
-    myGameArea.clear();
-    player.update();
-}
+// function updateGameArea() {
+//     myGameArea.clear();
+//     player.update();
+// }
 
 function updateGameArea() {
     myGameArea.clear();
