@@ -37,6 +37,25 @@ const criaEle = (() => {
 
 });
 // sortear as peças
+
+shuffleCards() {
+    // ... write your code here
+    const valorInincial = 0;
+    if (this.cards == undefined) {
+      return undefined;
+    }
+    this.cards.forEach(() => {
+      const valorFinal = this.cards.length;
+      //embaralhador
+      const result = Math.floor(Math.random() * (valorFinal - valorInincial));
+      const selectorCards = this.cards[result];
+      //apagar cartas quando errar
+      this.cards.splice(result, 1);
+      // // adiconar cartas numa array quando acertar
+      this.cards.push(selectorCards);
+    });
+  }
+
 const sufle = (() => {
 
     criaQuadrado();
