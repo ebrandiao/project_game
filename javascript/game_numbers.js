@@ -5,23 +5,24 @@ const tr2 = document.querySelector('#row-2').children;
 const tr3 = document.querySelector('#row-3').children;
 const tr4 = document.querySelector('#row-4').children;
 tableArrays.push(tr1, tr2, tr3, tr4);
+console.log(tableArrays[0]);
 
 // selecionar o click
 const button = document.getElementById('show-hint');
 const eventType = 'click';
 
 const teste = document.querySelector('td').innerText;
-console.log(teste)
 
 const tds = document.querySelectorAll('td');
 
-// criar for para onclick, onde todos os quadradinhos deverao ter evento de clik
-const pegarClick = ((tableArrays) => {
+// criar for para onclick, onde todos os quadradinhos deverao ter evento de click
+const pegarClick = (() => {
     // let click = '';
-    for (let i = 0; i < tableArrays.length; i ++){
-        click = tableArrays[i].querySelector('td').innerText;
+    for (let i = 0; i < tableArrays.length; i ++ ){
+        document.querySelectorAll('#td').innerText;
+        // if ()
     }
-    console.log(click);
+
 });
 
 
@@ -31,6 +32,23 @@ pegarClick();
 // encontrar o quadrado clicado e vazio, encontrando as
 const game = (() => {
     const check = (() => {
+      function encontrarEmpty(tableArrays){
+        for (let i = 0; i < tableArrays.length; i ++){
+          if (tableArrays[i] === 'empty'){
+            return true;
+          }
+          else {
+            return false;
+          }}
+      }
+
+      const checkEmpty = (() => {
+        for (let i = 0; i < encontrarEmpty.length; i ++ ){
+
+
+          let empty = tableArrays.filter(encontrarEmpty());
+        } console.log(checkEmpty)
+      });
 
     });
     const empty = (()=> {
