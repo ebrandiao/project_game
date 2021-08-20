@@ -24,10 +24,12 @@ Convenções adotadas no game para ganhar ou perder:
 
 #### SE VOCÊ CHEGOU ATÉ AQUI
 Muito obrigado pela atenção!! 
-Thank you very much for you atencion!! 
 
 #### SOBRE O AUTOR
 Eduardo Brandiao
+
 eduardo.brandiao.adm@gmail.com
+
 linked-in: https://www.linkedin.com/in/eduardobrandiao/
+
 Profile GH: https://ebrandiao.github.io/my_profile/
